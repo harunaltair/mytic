@@ -3,7 +3,7 @@
     <div class="h-[112px]">
         <nav class="fixed top-0 flex items-center w-full justify-between p-8 bg-white z-30">
             <a href="index.html">
-                <img src="assets/images/logos/Logo.svg" class="flex shrink-0" alt="logo">
+                <img src="{{ assets('assets/images/logos/Logo.svg') }}" class="flex shrink-0" alt="logo">
             </a>
             <ul class="flex items-center justify-center gap-8">
                 <li class="font-medium text-aktiv-grey hover:font-semibold hover:text-aktiv-orange transition-all duration-300">
@@ -21,7 +21,7 @@
             </ul>
             <a href="#" class="flex items-center rounded-full h-12 px-6 gap-[10px] w-fit shrink-0 bg-aktiv-green">
                 <span class="font-semibold text-white">Contact CS</span>
-                <img src="assets/images/icons/whatsapp.svg" class="w-6 h-6" alt="icon">
+                <img src="{{ assets('assets/images/icons/whatsapp.svg') }}" class="w-6 h-6" alt="icon">
             </a>
         </nav>
     </div>
@@ -29,7 +29,7 @@
         <div class="flex flex-col items-center gap-6 mt-20">
             <div class="flex items-center w-fit rounded-full p-1 pr-4 gap-[10px] bg-[#DFEFFF]">
                 <div class="w-12 h-12 rounded-full flex items-center justify-center shrink-0 bg-aktiv-blue overflow-hidden">
-                    <img src="assets/images/icons/medal-star.svg" class="w-6 h-6" alt="icon">
+                    <img src="{{ assets('assets/images/icons/medal-star.svg') }}" class="w-6 h-6" alt="icon">
                 </div>
                 <p class="font-semibold text-lg leading-[27px] text-aktiv-blue">#1 Best Workshop in Indonesia</p>
             </div>
@@ -41,7 +41,7 @@
             </div>
         </div>
         <div class="flex w-full overflow-hidden">
-            <img src="assets/images/backgrounds/wadedan_A_cheerful_workshop_scene_showing_a_man_presenting_his__f 1.png" class="w-full h-full object-cover object-top" alt="">
+            <img src="{{ assets('assets/images/backgrounds/wadedan_A_cheerful_workshop_scene_showing_a_man_presenting_his__f 1.png') }}" class="w-full h-full object-cover object-top" alt="">
         </div>
     </header>
     <section id="Goals" class="w-full max-w-[1280px] mx-auto px-[52px] z-10">
@@ -52,17 +52,17 @@
                     <p class="font-medium text-aktiv-grey">Our programs are designed to <br> develop any ages 😉 </p>
                 </div>
                 <div class="flex flex-col items-center rounded-2xl border border-[#E6E7EB] p-[18px] gap-3 text-center">
-                    <img src="assets/images/icons/More Creativity.svg" class="w-[64px]" alt="icon">
+                    <img src="{{ assets('assets/images/icons/More Creativity.svg') }}" class="w-[64px]" alt="icon">
                     <h3 class="font-semibold text-lg leading-[27px]">More Creativity</h3>
                     <p class="font-medium text-aktiv-grey">Lorem Ipsum itu adalah sebusah text contoh</p>
                 </div>
                 <div class="flex flex-col items-center rounded-2xl border border-[#E6E7EB] p-[18px] gap-3 text-center">
-                    <img src="assets/images/icons/Career Planning.svg" class="w-[64px]" alt="icon">
+                    <img src="{{ assets('assets/images/icons/Career Planning.svg') }}" class="w-[64px]" alt="icon">
                     <h3 class="font-semibold text-lg leading-[27px]">Career Planning</h3>
                     <p class="font-medium text-aktiv-grey">Lorem Ipsum itu adalah sebusah text contoh</p>
                 </div>
                 <div class="flex flex-col items-center rounded-2xl border border-[#E6E7EB] p-[18px] gap-3 text-center">
-                    <img src="assets/images/icons/Good Communication.svg" class="w-[64px]" alt="icon">
+                    <img src="{{ assets('assets/images/icons/Good Communication.svg') }}" class="w-[64px]" alt="icon">
                     <h3 class="font-semibold text-lg leading-[27px]">Good Communication</h3>
                     <p class="font-medium text-aktiv-grey">Lorem Ipsum itu adalah sebusah text contoh</p>
                 </div>
@@ -81,7 +81,7 @@
             <div class="grid grid-cols-4 gap-6">
                 <a href="category.html" class="card">
                     <div class="flex items-center h-full rounded-3xl p-5 pr-1 gap-3 bg-white">
-                        <img src="assets/images/icons/code-bg.svg" class="w-[56px] h-[56px] flex shrink-0" alt="icon">
+                        <img src="{{ assets('assets/images/icons/code-bg.svg') }}" class="w-[56px] h-[56px] flex shrink-0" alt="icon">
                         <div class="flex flex-col gap-[2px] overflow-hidden">
                             <h3 class="font-semibold text-lg leading-[27px] break-words">Programming</h3>
                             <p class="font-medium text-aktiv-grey">HTML, CSS and more</p>
@@ -90,7 +90,7 @@
                 </a>
                 <a href="category.html" class="card">
                     <div class="flex items-center h-full rounded-3xl p-5 pr-1 gap-3 bg-white">
-                        <img src="assets/images/icons/wallet-3-bg.svg" class="w-[56px] h-[56px] flex shrink-0" alt="icon">
+                        <img src="{{ assets('assets/images/icons/wallet-3-bg.svg') }}" class="w-[56px] h-[56px] flex shrink-0" alt="icon">
                         <div class="flex flex-col gap-[2px] overflow-hidden">
                             <h3 class="font-semibold text-lg leading-[27px] break-words">Self Improvment</h3>
                             <p class="font-medium text-aktiv-grey">Invest, Tax and more</p>
@@ -99,7 +99,7 @@
                 </a>
                 <a href="category.html" class="card">
                     <div class="flex items-center h-full rounded-3xl p-5 pr-1 gap-3 bg-white">
-                        <img src="assets/images/icons/musicnote-bg.svg" class="w-[56px] h-[56px] flex shrink-0" alt="icon">
+                        <img src="{{ assets('assets/images/icons/musicnote-bg.svg') }}" class="w-[56px] h-[56px] flex shrink-0" alt="icon">
                         <div class="flex flex-col gap-[2px] overflow-hidden">
                             <h3 class="font-semibold text-lg leading-[27px] break-words">Music</h3>
                             <p class="font-medium text-aktiv-grey">Piano, Sing and more</p>
@@ -108,7 +108,7 @@
                 </a>
                 <a href="category.html" class="card">
                     <div class="flex items-center h-full rounded-3xl p-5 pr-1 gap-3 bg-white">
-                        <img src="assets/images/icons/berzier-bg.svg" class="w-[56px] h-[56px] flex shrink-0" alt="icon">
+                        <img src="{{ assets('assets/images/icons/berzier-bg.svg') }}" class="w-[56px] h-[56px] flex shrink-0" alt="icon">
                         <div class="flex flex-col gap-[2px] overflow-hidden">
                             <h3 class="font-semibold text-lg leading-[27px] break-words">Art & Design</h3>
                             <p class="font-medium text-aktiv-grey">Balet, Run and more</p>
@@ -133,7 +133,7 @@
                         <div class="flex flex-col gap-[18px]">
                             <div class="flex items-center gap-3">
                                 <div class="w-16 h-16 rounded-full flex shrink-0 overflow-hidden">
-                                    <img src="assets/images/photos/photo1.png" class="w-full h-full object-cover" alt="avatar">
+                                    <img src="{{ assets('assets/images/photos/photo1.png') }}" class="w-full h-full object-cover" alt="avatar">
                                 </div>
                                 <div class="flex flex-col gap-[2px]">
                                     <p class="font-semibold text-lg leading-[27px]">Megamore S Qie</p>
@@ -141,20 +141,20 @@
                                 </div>
                             </div>
                             <div class="thumbnail-container relative h-[200px] rounded-xl bg-[#D9D9D9] overflow-hidden">
-                                <img src="assets/images/thumbnails/thumbnail1.png" class="w-full h-full object-cover" alt="thumbnail">
+                                <img src="{{ assets('assets/images/thumbnails/thumbnail1.png') }}" class="w-full h-full object-cover" alt="thumbnail">
                                 <div class="absolute top-3 left-3 flex items-center rounded-full py-3 px-5 gap-1 bg-aktiv-green text-white z-10">
-                                    <img src="assets/images/icons/medal-star.svg" class="w-6 h-6" alt="icon">
+                                    <img src="{{ assets('assets/images/icons/medal-star.svg') }}" class="w-6 h-6" alt="icon">
                                     <span class="font-semibold">OPEN</span>
                                 </div>
                             </div>
                             <div class="card-detail flex flex-col gap-2">
                                 <div class="flex items-center gap-3">
                                     <div class="flex items-center gap-1">
-                                        <img src="assets/images/icons/calendar-2.svg" class="w-6 h-6 flex shrink-0" alt="icon">
+                                        <img src="{{ assets('assets/images/icons/calendar-2.svg') }}" class="w-6 h-6 flex shrink-0" alt="icon">
                                         <span class="font-medium text-aktiv-grey">Tue, 30 May 2024</span>
                                     </div>
                                     <div class="flex items-center gap-1">
-                                        <img src="assets/images/icons/timer.svg" class="w-6 h-6 flex shrink-0" alt="icon">
+                                        <img src="{{ assets('assets/images/icons/timer.svg') }}" class="w-6 h-6 flex shrink-0" alt="icon">
                                         <span class="font-medium text-aktiv-grey">09:30 AM</span>
                                     </div>
                                 </div>
@@ -167,7 +167,7 @@
                                 <p class="font-semibold text-2xl leading-8 text-aktiv-red">Rp160.000</p>
                                 <p class="font-medium text-aktiv-grey">/person</p>
                             </div>
-                            <img src="assets/images/icons/arrow-right.svg" class="w-12 h-12 flex shrink-0" alt="icon">
+                            <img src="{{ assets('assets/images/icons/arrow-right.svg') }}" class="w-12 h-12 flex shrink-0" alt="icon">
                         </div>
                     </div>
                 </a>
@@ -176,7 +176,7 @@
                         <div class="flex flex-col gap-[18px]">
                             <div class="flex items-center gap-3">
                                 <div class="w-16 h-16 rounded-full flex shrink-0 overflow-hidden">
-                                    <img src="assets/images/photos/photo2.png" class="w-full h-full object-cover" alt="avatar">
+                                    <img src="{{ assets('assets/images/photos/photo2.png') }}" class="w-full h-full object-cover" alt="avatar">
                                 </div>
                                 <div class="flex flex-col gap-[2px]">
                                     <p class="font-semibold text-lg leading-[27px]">Feri Ahmad</p>
@@ -184,20 +184,20 @@
                                 </div>
                             </div>
                             <div class="thumbnail-container relative h-[200px] rounded-xl bg-[#D9D9D9] overflow-hidden">
-                                <img src="assets/images/thumbnails/thumbnail2.png" class="w-full h-full object-cover" alt="thumbnail">
+                                <img src="{{ assets('assets/images/thumbnails/thumbnail2.png') }}" class="w-full h-full object-cover" alt="thumbnail">
                                 <div class="absolute top-3 left-3 flex items-center rounded-full py-3 px-5 gap-1 bg-aktiv-orange text-white z-10">
-                                    <img src="assets/images/icons/timer-start.svg" class="w-6 h-6" alt="icon">
+                                    <img src="{{ assets('assets/images/icons/timer-start.svg') }}" class="w-6 h-6" alt="icon">
                                     <span class="font-semibold">STARTED</span>
                                 </div>
                             </div>
                             <div class="card-detail flex flex-col gap-2">
                                 <div class="flex items-center gap-3">
                                     <div class="flex items-center gap-1">
-                                        <img src="assets/images/icons/calendar-2.svg" class="w-6 h-6 flex shrink-0" alt="icon">
+                                        <img src="{{ assets('assets/images/icons/calendar-2.svg') }}" class="w-6 h-6 flex shrink-0" alt="icon">
                                         <span class="font-medium text-aktiv-grey">Fri, 24 May 2024</span>
                                     </div>
                                     <div class="flex items-center gap-1">
-                                        <img src="assets/images/icons/timer.svg" class="w-6 h-6 flex shrink-0" alt="icon">
+                                        <img src="{{ assets('assets/images/icons/timer.svg') }}" class="w-6 h-6 flex shrink-0" alt="icon">
                                         <span class="font-medium text-aktiv-grey">09:30 AM</span>
                                     </div>
                                 </div>
@@ -210,7 +210,7 @@
                                 <p class="font-semibold text-2xl leading-8 text-aktiv-red">Rp160.000</p>
                                 <p class="font-medium text-aktiv-grey">/person</p>
                             </div>
-                            <img src="assets/images/icons/arrow-right.svg" class="w-12 h-12 flex shrink-0" alt="icon">
+                            <img src="{{ assets('assets/images/icons/arrow-right.svg') }}" class="w-12 h-12 flex shrink-0" alt="icon">
                         </div>
                     </div>
                 </a>
@@ -219,7 +219,7 @@
                         <div class="flex flex-col gap-[18px]">
                             <div class="flex items-center gap-3">
                                 <div class="w-16 h-16 rounded-full flex shrink-0 overflow-hidden">
-                                    <img src="assets/images/photos/photo3.png" class="w-full h-full object-cover" alt="avatar">
+                                    <img src="{{ assets('assets/images/photos/photo3.png') }}" class="w-full h-full object-cover" alt="avatar">
                                 </div>
                                 <div class="flex flex-col gap-[2px]">
                                     <p class="font-semibold text-lg leading-[27px]">Ichsan Smth</p>
@@ -227,20 +227,20 @@
                                 </div>
                             </div>
                             <div class="thumbnail-container relative h-[200px] rounded-xl bg-[#D9D9D9] overflow-hidden">
-                                <img src="assets/images/thumbnails/thumbnail3.png" class="w-full h-full object-cover" alt="thumbnail">
+                                <img src="{{ assets('assets/images/thumbnails/thumbnail3.png') }}" class="w-full h-full object-cover" alt="thumbnail">
                                 <div class="absolute top-3 left-3 flex items-center rounded-full py-3 px-5 gap-1 bg-aktiv-red text-white z-10">
-                                    <img src="assets/images/icons/sand-timer.svg" class="w-6 h-6" alt="icon">
+                                    <img src="{{ assets('assets/images/icons/sand-timer.svg') }}" class="w-6 h-6" alt="icon">
                                     <span class="font-semibold">CLOSED</span>
                                 </div>
                             </div>
                             <div class="card-detail flex flex-col gap-2">
                                 <div class="flex items-center gap-3">
                                     <div class="flex items-center gap-1">
-                                        <img src="assets/images/icons/calendar-2.svg" class="w-6 h-6 flex shrink-0" alt="icon">
+                                        <img src="{{ assets('assets/images/icons/calendar-2.svg') }}" class="w-6 h-6 flex shrink-0" alt="icon">
                                         <span class="font-medium text-aktiv-grey">Tue, 30 May 2024</span>
                                     </div>
                                     <div class="flex items-center gap-1">
-                                        <img src="assets/images/icons/timer.svg" class="w-6 h-6 flex shrink-0" alt="icon">
+                                        <img src="{{ assets('assets/images/icons/timer.svg') }}" class="w-6 h-6 flex shrink-0" alt="icon">
                                         <span class="font-medium text-aktiv-grey">09:30 AM</span>
                                     </div>
                                 </div>
@@ -253,7 +253,7 @@
                                 <p class="font-semibold text-2xl leading-8 text-aktiv-red">Rp160.000</p>
                                 <p class="font-medium text-aktiv-grey">/person</p>
                             </div>
-                            <img src="assets/images/icons/arrow-right.svg" class="w-12 h-12 flex shrink-0" alt="icon">
+                            <img src="{{ assets('assets/images/icons/arrow-right.svg') }}" class="w-12 h-12 flex shrink-0" alt="icon">
                         </div>
                     </div>
                 </a>
@@ -262,7 +262,7 @@
                         <div class="flex flex-col gap-[18px]">
                             <div class="flex items-center gap-3">
                                 <div class="w-16 h-16 rounded-full flex shrink-0 overflow-hidden">
-                                    <img src="assets/images/photos/photo4.png" class="w-full h-full object-cover" alt="avatar">
+                                    <img src="{{ assets('assets/images/photos/photo4.png') }}" class="w-full h-full object-cover" alt="avatar">
                                 </div>
                                 <div class="flex flex-col gap-[2px]">
                                     <p class="font-semibold text-lg leading-[27px]">Andika Nerd</p>
@@ -270,20 +270,20 @@
                                 </div>
                             </div>
                             <div class="thumbnail-container relative h-[200px] rounded-xl bg-[#D9D9D9] overflow-hidden">
-                                <img src="assets/images/thumbnails/thumbnail4.png" class="w-full h-full object-cover" alt="thumbnail">
+                                <img src="{{ assets('assets/images/thumbnails/thumbnail4.png') }}" class="w-full h-full object-cover" alt="thumbnail">
                                 <div class="absolute top-3 left-3 flex items-center rounded-full py-3 px-5 gap-1 bg-aktiv-green text-white z-10">
-                                    <img src="assets/images/icons/medal-star.svg" class="w-6 h-6" alt="icon">
+                                    <img src="{{ assets('assets/images/icons/medal-star.svg') }}" class="w-6 h-6" alt="icon">
                                     <span class="font-semibold">OPEN</span>
                                 </div>
                             </div>
                             <div class="card-detail flex flex-col gap-2">
                                 <div class="flex items-center gap-3">
                                     <div class="flex items-center gap-1">
-                                        <img src="assets/images/icons/calendar-2.svg" class="w-6 h-6 flex shrink-0" alt="icon">
+                                        <img src="{{ assets('assets/images/icons/calendar-2.svg') }}" class="w-6 h-6 flex shrink-0" alt="icon">
                                         <span class="font-medium text-aktiv-grey">Tue, 30 May 2024</span>
                                     </div>
                                     <div class="flex items-center gap-1">
-                                        <img src="assets/images/icons/timer.svg" class="w-6 h-6 flex shrink-0" alt="icon">
+                                        <img src="{{ assets('assets/images/icons/timer.svg') }}" class="w-6 h-6 flex shrink-0" alt="icon">
                                         <span class="font-medium text-aktiv-grey">09:30 AM</span>
                                     </div>
                                 </div>
@@ -296,7 +296,7 @@
                                 <p class="font-semibold text-2xl leading-8 text-aktiv-red">Rp160.000</p>
                                 <p class="font-medium text-aktiv-grey">/person</p>
                             </div>
-                            <img src="assets/images/icons/arrow-right.svg" class="w-12 h-12 flex shrink-0" alt="icon">
+                            <img src="{{ assets('assets/images/icons/arrow-right.svg') }}" class="w-12 h-12 flex shrink-0" alt="icon">
                         </div>
                     </div>
                 </a>
@@ -305,7 +305,7 @@
                         <div class="flex flex-col gap-[18px]">
                             <div class="flex items-center gap-3">
                                 <div class="w-16 h-16 rounded-full flex shrink-0 overflow-hidden">
-                                    <img src="assets/images/photos/photo5.png" class="w-full h-full object-cover" alt="avatar">
+                                    <img src="{{ assets('assets/images/photos/photo5.png') }}" class="w-full h-full object-cover" alt="avatar">
                                 </div>
                                 <div class="flex flex-col gap-[2px]">
                                     <p class="font-semibold text-lg leading-[27px]">Topikih Hoode Luicy</p>
@@ -313,20 +313,20 @@
                                 </div>
                             </div>
                             <div class="thumbnail-container relative h-[200px] rounded-xl bg-[#D9D9D9] overflow-hidden">
-                                <img src="assets/images/thumbnails/thumbnail5.png" class="w-full h-full object-cover" alt="thumbnail">
+                                <img src="{{ assets('assets/images/thumbnails/thumbnail5.png') }}" class="w-full h-full object-cover" alt="thumbnail">
                                 <div class="absolute top-3 left-3 flex items-center rounded-full py-3 px-5 gap-1 bg-aktiv-green text-white z-10">
-                                    <img src="assets/images/icons/medal-star.svg" class="w-6 h-6" alt="icon">
+                                    <img src="{{ assets('assets/images/icons/medal-star.svg') }}" class="w-6 h-6" alt="icon">
                                     <span class="font-semibold">OPEN</span>
                                 </div>
                             </div>
                             <div class="card-detail flex flex-col gap-2">
                                 <div class="flex items-center gap-3">
                                     <div class="flex items-center gap-1">
-                                        <img src="assets/images/icons/calendar-2.svg" class="w-6 h-6 flex shrink-0" alt="icon">
+                                        <img src="{{ assets('assets/images/icons/calendar-2.svg') }}" class="w-6 h-6 flex shrink-0" alt="icon">
                                         <span class="font-medium text-aktiv-grey">Tue, 30 May 2024</span>
                                     </div>
                                     <div class="flex items-center gap-1">
-                                        <img src="assets/images/icons/timer.svg" class="w-6 h-6 flex shrink-0" alt="icon">
+                                        <img src="{{ assets('assets/images/icons/timer.svg') }}" class="w-6 h-6 flex shrink-0" alt="icon">
                                         <span class="font-medium text-aktiv-grey">09:30 AM</span>
                                     </div>
                                 </div>
@@ -339,7 +339,7 @@
                                 <p class="font-semibold text-2xl leading-8 text-aktiv-red">Rp160.000</p>
                                 <p class="font-medium text-aktiv-grey">/person</p>
                             </div>
-                            <img src="assets/images/icons/arrow-right.svg" class="w-12 h-12 flex shrink-0" alt="icon">
+                            <img src="{{ assets('assets/images/icons/arrow-right.svg') }}" class="w-12 h-12 flex shrink-0" alt="icon">
                         </div>
                     </div>
                 </a>
@@ -348,7 +348,7 @@
                         <div class="flex flex-col gap-[18px]">
                             <div class="flex items-center gap-3">
                                 <div class="w-16 h-16 rounded-full flex shrink-0 overflow-hidden">
-                                    <img src="assets/images/photos/photo6.png" class="w-full h-full object-cover" alt="avatar">
+                                    <img src="{{ assets('assets/images/photos/photo6.png') }}" class="w-full h-full object-cover" alt="avatar">
                                 </div>
                                 <div class="flex flex-col gap-[2px]">
                                     <p class="font-semibold text-lg leading-[27px]">Bociel Raez</p>
@@ -356,20 +356,20 @@
                                 </div>
                             </div>
                             <div class="thumbnail-container relative h-[200px] rounded-xl bg-[#D9D9D9] overflow-hidden">
-                                <img src="assets/images/thumbnails/thumbnail6.png" class="w-full h-full object-cover" alt="thumbnail">
+                                <img src="{{ assets('assets/images/thumbnails/thumbnail6.png') }}" class="w-full h-full object-cover" alt="thumbnail">
                                 <div class="absolute top-3 left-3 flex items-center rounded-full py-3 px-5 gap-1 bg-aktiv-green text-white z-10">
-                                    <img src="assets/images/icons/medal-star.svg" class="w-6 h-6" alt="icon">
+                                    <img src="{{ assets('assets/images/icons/medal-star.svg') }}" class="w-6 h-6" alt="icon">
                                     <span class="font-semibold">OPEN</span>
                                 </div>
                             </div>
                             <div class="card-detail flex flex-col gap-2">
                                 <div class="flex items-center gap-3">
                                     <div class="flex items-center gap-1">
-                                        <img src="assets/images/icons/calendar-2.svg" class="w-6 h-6 flex shrink-0" alt="icon">
+                                        <img src="{{ assets('assets/images/icons/calendar-2.svg') }}" class="w-6 h-6 flex shrink-0" alt="icon">
                                         <span class="font-medium text-aktiv-grey">Tue, 30 May 2024</span>
                                     </div>
                                     <div class="flex items-center gap-1">
-                                        <img src="assets/images/icons/timer.svg" class="w-6 h-6 flex shrink-0" alt="icon">
+                                        <img src="{{ assets('assets/images/icons/timer.svg') }}" class="w-6 h-6 flex shrink-0" alt="icon">
                                         <span class="font-medium text-aktiv-grey">09:30 AM</span>
                                     </div>
                                 </div>
@@ -382,7 +382,7 @@
                                 <p class="font-semibold text-2xl leading-8 text-aktiv-red">Rp160.000</p>
                                 <p class="font-medium text-aktiv-grey">/person</p>
                             </div>
-                            <img src="assets/images/icons/arrow-right.svg" class="w-12 h-12 flex shrink-0" alt="icon">
+                            <img src="{{ assets('assets/images/icons/arrow-right.svg') }}" class="w-12 h-12 flex shrink-0" alt="icon">
                         </div>
                     </div>
                 </a>
@@ -404,7 +404,7 @@
                         <div class="swiper-slide">
                             <div class="testimony-card w-full max-w-[1176px] h-[413px] mx-auto flex items-center rounded-2xl overflow-hidden">
                                 <div class="flex h-full w-[436px] shrink-0 bg-aktiv-orange overflow-hidden">
-                                    <img src="assets/images/photos/testimony1.png" class="w-full h-full object-cover" alt="photo">
+                                    <img src="{{ assets('assets/images/photos/testimony1.png') }}" class="w-full h-full object-cover" alt="photo">
                                 </div>
                                 <div class="h-full w-full flex flex-col justify-between p-[42px] bg-[linear-gradient(280.42deg,#5B8CE9_-42.59%,#4EB6F5_50.66%,#5B8CE9_143.91%)]">
                                     <p class="font-['Times_New_Roman'] font-bold text-[38px] leading-[60.8px] text-white">
@@ -416,11 +416,11 @@
                                             <p class="font-medium text-white">Mother of Tenz</p>
                                         </div>
                                         <div class="flex items-center">
-                                            <img src="assets/images/icons/Star 1.svg" class="p-[5px] w-8 h-8" alt="star">
-                                            <img src="assets/images/icons/Star 1.svg" class="p-[5px] w-8 h-8" alt="star">
-                                            <img src="assets/images/icons/Star 1.svg" class="p-[5px] w-8 h-8" alt="star">
-                                            <img src="assets/images/icons/Star 1.svg" class="p-[5px] w-8 h-8" alt="star">
-                                            <img src="assets/images/icons/Star 1.svg" class="p-[5px] w-8 h-8" alt="star">
+                                            <img src="{{ assets('assets/images/icons/Star 1.svg') }}" class="p-[5px] w-8 h-8" alt="star">
+                                            <img src="{{ assets('assets/images/icons/Star 1.svg') }}" class="p-[5px] w-8 h-8" alt="star">
+                                            <img src="{{ assets('assets/images/icons/Star 1.svg') }}" class="p-[5px] w-8 h-8" alt="star">
+                                            <img src="{{ assets('assets/images/icons/Star 1.svg') }}" class="p-[5px] w-8 h-8" alt="star">
+                                            <img src="{{ assets('assets/images/icons/Star 1.svg') }}" class="p-[5px] w-8 h-8" alt="star">
                                         </div>
                                     </div>
                                 </div>
@@ -429,7 +429,7 @@
                         <div class="swiper-slide">
                             <div class="testimony-card w-full max-w-[1176px] h-[413px] mx-auto flex items-center rounded-2xl overflow-hidden">
                                 <div class="flex h-full w-[436px] shrink-0 bg-aktiv-orange overflow-hidden">
-                                    <img src="assets/images/photos/testimony1.png" class="w-full h-full object-cover" alt="photo">
+                                    <img src="{{ assets('assets/images/photos/testimony1.png') }}" class="w-full h-full object-cover" alt="photo">
                                 </div>
                                 <div class="h-full w-full flex flex-col justify-between p-[42px] bg-[linear-gradient(280.42deg,#5B8CE9_-42.59%,#4EB6F5_50.66%,#5B8CE9_143.91%)]">
                                     <p class="font-['Times_New_Roman'] font-bold text-[38px] leading-[60.8px] text-white">
@@ -441,11 +441,11 @@
                                             <p class="font-medium text-white">Mother of Tenz</p>
                                         </div>
                                         <div class="flex items-center">
-                                            <img src="assets/images/icons/Star 1.svg" class="p-[5px] w-8 h-8" alt="star">
-                                            <img src="assets/images/icons/Star 1.svg" class="p-[5px] w-8 h-8" alt="star">
-                                            <img src="assets/images/icons/Star 1.svg" class="p-[5px] w-8 h-8" alt="star">
-                                            <img src="assets/images/icons/Star 1.svg" class="p-[5px] w-8 h-8" alt="star">
-                                            <img src="assets/images/icons/Star 1.svg" class="p-[5px] w-8 h-8" alt="star">
+                                            <img src="{{ assets('assets/images/icons/Star 1.svg') }}" class="p-[5px] w-8 h-8" alt="star">
+                                            <img src="{{ assets('assets/images/icons/Star 1.svg') }}" class="p-[5px] w-8 h-8" alt="star">
+                                            <img src="{{ assets('assets/images/icons/Star 1.svg') }}" class="p-[5px] w-8 h-8" alt="star">
+                                            <img src="{{ assets('assets/images/icons/Star 1.svg') }}" class="p-[5px] w-8 h-8" alt="star">
+                                            <img src="{{ assets('assets/images/icons/Star 1.svg') }}" class="p-[5px] w-8 h-8" alt="star">
                                         </div>
                                     </div>
                                 </div>
@@ -454,10 +454,10 @@
                     </div>
                     <div class="absolute w-full max-w-[1244px] mx-auto left-1/2 top-1/2 transform -translate-x-1/2 z-10">
                         <div class="swiper-button-prev !w-12 !h-12 rounded-full after:hidden">
-                            <img src="assets/images/icons/arrow-left.svg" class="w-full h-full" alt="icon">
+                            <img src="{{ assets('assets/images/icons/arrow-left.svg') }}" class="w-full h-full" alt="icon">
                         </div>
                         <div class="swiper-button-next !w-12 !h-12 rounded-full after:hidden">
-                            <img src="assets/images/icons/arrow-left.svg" class="w-full h-full rotate-180" alt="icon">
+                            <img src="{{ assets('assets/images/icons/arrow-left.svg') }}" class="w-full h-full rotate-180" alt="icon">
                         </div>
                     </div>
                 </div>
@@ -471,42 +471,42 @@
                 <div class="grid grid-cols-3 gap-6">
                     <div class="flex flex-col h-full justify-between rounded-3xl border border-[#E6E7EB] p-6 gap-3 bg-white">
                         <div class="flex items-center gap-3">
-                            <img src="assets/images/icons/In-Depth Learning from Experts Instructor.png" class="flex w-[56px] h-[56px] shrink-0" alt="icon">
+                            <img src="{{ assets('assets/images/icons/In-Depth Learning from Experts Instructor.png') }}" class="flex w-[56px] h-[56px] shrink-0" alt="icon">
                             <h3 class="font-semibold text-lg leading-[27px]">In-Depth Learning from Experts Instructor</h3>
                         </div>
                         <p class="font-medium leading-[25.6px] text-aktiv-grey">We feature instructors with strong field-specific expertise.</p>
                     </div>
                     <div class="flex flex-col h-full justify-between rounded-3xl border border-[#E6E7EB] p-6 gap-3 bg-white">
                         <div class="flex items-center gap-3">
-                            <img src="assets/images/icons/Tangible Results.png" class="flex w-[56px] h-[56px] shrink-0" alt="icon">
+                            <img src="{{ assets('assets/images/icons/Tangible Results.png') }}" class="flex w-[56px] h-[56px] shrink-0" alt="icon">
                             <h3 class="font-semibold text-lg leading-[27px]">Tangible Results</h3>
                         </div>
                         <p class="font-medium leading-[25.6px] text-aktiv-grey">Our students are highly engaged and supportive of our community.</p>
                     </div>
                     <div class="flex flex-col h-full justify-between rounded-3xl border border-[#E6E7EB] p-6 gap-3 bg-white">
                         <div class="flex items-center gap-3">
-                            <img src="assets/images/icons/Supportive Learning Environment.png" class="flex w-[56px] h-[56px] shrink-0" alt="icon">
+                            <img src="{{ assets('assets/images/icons/Supportive Learning Environment.png') }}" class="flex w-[56px] h-[56px] shrink-0" alt="icon">
                             <h3 class="font-semibold text-lg leading-[27px]">Supportive Learning Environment</h3>
                         </div>
                         <p class="font-medium leading-[25.6px] text-aktiv-grey">We feature instructors with strong field-specific expertise.</p>
                     </div>
                     <div class="flex flex-col h-full justify-between rounded-3xl border border-[#E6E7EB] p-6 gap-3 bg-white">
                         <div class="flex items-center gap-3">
-                            <img src="assets/images/icons/community support.png" class="flex w-[56px] h-[56px] shrink-0" alt="icon">
+                            <img src="{{ assets('assets/images/icons/community support.png') }}" class="flex w-[56px] h-[56px] shrink-0" alt="icon">
                             <h3 class="font-semibold text-lg leading-[27px]">Community Support</h3>
                         </div>
                         <p class="font-medium leading-[25.6px] text-aktiv-grey">We feature instructors with strong field-specific expertise.</p>
                     </div>
                     <div class="flex flex-col h-full justify-between rounded-3xl border border-[#E6E7EB] p-6 gap-3 bg-white">
                         <div class="flex items-center gap-3">
-                            <img src="assets/images/icons/Networking Opportunities With Other.png" class="flex w-[56px] h-[56px] shrink-0" alt="icon">
+                            <img src="{{ assets('assets/images/icons/Networking Opportunities With Other.png') }}" class="flex w-[56px] h-[56px] shrink-0" alt="icon">
                             <h3 class="font-semibold text-lg leading-[27px]">Networking Opportunities With Other</h3>
                         </div>
                         <p class="font-medium leading-[25.6px] text-aktiv-grey">We feature instructors with strong field-specific expertise.</p>
                     </div>
                     <div class="flex flex-col h-full justify-between rounded-3xl border border-[#E6E7EB] p-6 gap-3 bg-white">
                         <div class="flex items-center gap-3">
-                            <img src="assets/images/icons/Learning Flexibility.png" class="flex w-[56px] h-[56px] shrink-0" alt="icon">
+                            <img src="{{ assets('assets/images/icons/Learning Flexibility.png') }}" class="flex w-[56px] h-[56px] shrink-0" alt="icon">
                             <h3 class="font-semibold text-lg leading-[27px]">Learning Flexibility</h3>
                         </div>
                         <p class="font-medium leading-[25.6px] text-aktiv-grey">We offer a variety of workshops that you can learn from every day.</p>
@@ -520,7 +520,7 @@
         </section>
     </div>
     <div id="Join-Now" class="relative w-full overflow-hidden">
-        <img src="assets/images/backgrounds/lines.svg" class="w-full h-full object-cover absolute" alt="backgrounds">
+        <img src="{{ assets('assets/images/backgrounds/lines.svg') }}" class="w-full h-full object-cover absolute" alt="backgrounds">
         <div class="relative flex items-center w-full max-w-[1176px] mx-auto my-[52px] h-[464px] rounded-2xl bg-[linear-gradient(280.42deg,#5B8CE9_-42.59%,#4EB6F5_50.66%,#5B8CE9_143.91%)] overflow-hidden z-10">
             <div class="flex flex-col justify-center p-[90px] pr-[60px] gap-8">
                 <p class="rounded-full w-fit py-3 px-8 font-semibold text-aktiv-blue bg-[#DFEFFF]">What are you waiting for? Join now 🔥 </p>
@@ -530,14 +530,14 @@
                 </a>
             </div>
             <div class="flex w-[496px] h-full shrink-0 overflow-hidden">
-                <img src="assets/images/photos/join-now.png" class="w-full h-full object-contain" alt="photo">
+                <img src="{{ assets('assets/images/photos/join-now.png') }}" class="w-full h-full object-contain" alt="photo">
             </div>
         </div>
     </div>
     <footer class="w-full p-[52px] bg-white">
         <div class="flex flex-col w-full max-w-[1176px] mx-auto gap-8">
             <div class="flex flex-col items-center gap-4">
-                <img src="assets/images/logos/Logo-blue.svg" class="h-10" alt="logo">
+                <img src="{{ assets('assets/images/logos/Logo-blue.svg') }}" class="h-10" alt="logo">
                 <p class="font-medium text-aktiv-grey">Ipsum is a company engaged in offline education.</p>
             </div>
             <hr class="border-[#E6E7EB]">
