@@ -13,7 +13,7 @@ Category {{ $category->name }}
                 <div class="flex items-center gap-2 ">
                     <a class="font-medium text-aktiv-grey last:font-semibold last:text-aktiv-black">Homepage</a>
                     <span>></span>
-                    <a class="font-medium text-aktiv-grey last:font-semibold last:text-aktiv-black">Category Workshop</a>
+                    <a class="font-medium text-aktiv-grey last:font-semibold last:text-aktiv-black">Category Event</a>
                 </div>
             </div>
             <div class="grid grid-cols-3 gap-6">
@@ -68,7 +68,7 @@ Category {{ $category->name }}
                         </div>
                     </a>
                 @empty
-                    <p class="text-center text-2xl text-gray-400 col-span-3">No workshops available.</p>
+                    <p class="text-center text-2xl text-gray-400 col-span-3">No events available.</p>
                 @endforelse
             </div>
         </div>

@@ -12,11 +12,11 @@ Details {{ $workshop->name }}
     <section id="Category" class="w-full max-w-[1280px] mx-auto px-[52px] mt-16 mb-[100px]">
         <div class="flex flex-col gap-16">
             <div class="flex flex-col items-center gap-1">
-                <p class="font-bold text-[32px] leading-[48px] capitalize text-white">Workshop Details</p>
+                <p class="font-bold text-[32px] leading-[48px] capitalize text-white">Event Details</p>
                 <div class="flex items-center gap-2 text-white">
                     <a class="last:font-semibold">Homepage</a>
                     <span>></span>
-                    <a class="last:font-semibold">Workshop Details</a>
+                    <a class="last:font-semibold">Event Details</a>
                 </div>
             </div>
             <main class="flex gap-8">
@@ -112,7 +112,7 @@ Details {{ $workshop->name }}
                 <section id="Sidebar" class="flex flex-col w-[420px] gap-8">
                     <div class="flex flex-col rounded-3xl pt-8 gap-6 bg-white">
                         <div class="flex flex-col mx-8 gap-4">
-                            <h2 class="font-Neue-Plak-bold text-xl leading-[27.5px]">Workshop Price</h2>
+                            <h2 class="font-Neue-Plak-bold text-xl leading-[27.5px]">Event Price</h2>
                             <div class="flex items-center gap-[6px]">
                                 <p class="font-bold text-[32px] leading-[48px] text-aktiv-red">Rp {{ number_format($workshop->price, 0, ',', '.' )}}</p>
                                 <p class="font-semibold text-aktiv-grey">/person</p>
@@ -126,7 +126,7 @@ Details {{ $workshop->name }}
                             <img src="{{ asset('assets/images/icons/user-2.svg') }}" class="w-[56px] h-[56px]" alt="icon">
                         </div>
                         <div class="flex flex-col mx-8 gap-4">
-                            <h2 class="font-Neue-Plak-bold text-xl leading-[27.5px]">This workshop will teach</h2>
+                            <h2 class="font-Neue-Plak-bold text-xl leading-[27.5px]">Event Benefits</h2>
                             <div class="flex flex-col gap-6">
                                 @forelse ($workshop->benefits as $itemBenefit)
                                 <div class="flex items-center gap-2">
@@ -134,12 +134,12 @@ Details {{ $workshop->name }}
                                     <p class="font-semibold text-lg leading-[27px]">{{ $itemBenefit->name }}</p>
                                 </div>
                                 @empty
-                                    <p class="font-medium text-aktiv-grey">No benefits available for this workshop.</p>
+                                    <p class="font-medium text-aktiv-grey">No benefits available for this event.</p>
                                 @endforelse
                             </div>
                         </div>
                         <div class="flex flex-col">
-                            <a href="booking.html" class="flex items-center justify-center mx-8 h-16 rounded-xl px-6 gap-[10px] bg-aktiv-orange font-semibold text-lg leading-[27px] text-white mb-8">Join Workshop</a>
+                            <a href="{{ route('front.booking', $workshop->slug)}}" class="flex items-center justify-center mx-8 h-16 rounded-xl px-6 gap-[10px] bg-aktiv-orange font-semibold text-lg leading-[27px] text-white mb-8">Join Event</a>
                         </div>
                     </div>
                 </section>
